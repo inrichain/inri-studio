@@ -1,0 +1,11 @@
+{
+  "name": "inri-studio",
+  "private": true,
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "dev:upload-api": "pnpm --filter upload-api dev",
+    "build:web": "pnpm --filter web build",
+    "build": "pnpm -r build"
+  }
+}
